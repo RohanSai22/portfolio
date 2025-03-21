@@ -128,9 +128,9 @@ export const projects = [
     des: "Optimized large language models by using custom weight prediction to reduce GPU dependency. Predicts weights, biases, and attention parameters with PyTorch and Hugging Face Transformers.",
     img: "/llm.png",
     iconLists: ["/pytorch.png", "/huggingface.png"],
-    link: "https://colab.research.google.com/drive/1QhgDMOnkWtarZYQAowTLnremB6H2NyLK?usp=sharing",
+    link: "https://www.youtube.com/watch?v=ZZTyjLwovhE",
     sourceCode:
-      "https://colab.research.google.com/drive/1QhgDMOnkWtarZYQAowTLnremB6H2NyLK?usp=sharing",
+      "https://colab.research.google.com/drive/1kVTTdSETNELi5oyQZfYTirKIT8SEXhED",
   },
   {
     id: 7,
