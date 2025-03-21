@@ -1,9 +1,8 @@
 "use client";
-
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-import Lottie from "react-lottie";
+//import Lottie from "react-lottie";
 
 import { links } from "@/config";
 import { techStack } from "@/data";
@@ -14,6 +13,13 @@ import { BackgroundGradientAnimation } from "./background-gradient-animation";
 import { MagicButton } from "./magic-button";
 
 import { GridGlobe } from "../grid-globe";
+
+import dynamic from "next/dynamic";
+
+// Dynamically import Lottie with no SSR
+const Lottie = dynamic(() => import("react-lottie"), {
+  ssr: false,
+});
 
 export const BentoGrid = ({
   className,
