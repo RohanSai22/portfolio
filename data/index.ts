@@ -225,6 +225,15 @@ export const projects = [
     link: "https://diveinn.vercel.app/",
     sourceCode: "https://github.com/RohanSai22/deep-researcher",
   },
+  {
+    id: 17,
+    title: "IAFlow - Your Instant App Generator",
+    des: "Transforms your ideas into fully functional web apps in minutes with seamless editing, one-click deployment, and robust code generation powered by Gemini AI.",
+    img: "/ia-flow.png",
+    iconLists: ["/gpt.png", "/next.png"],
+    link: "https://ia-flow.vercel.app/",
+    sourceCode: "https://github.com/RohanSai22/ia",
+  },
 ] as const;
 
 export const testimonials = [
