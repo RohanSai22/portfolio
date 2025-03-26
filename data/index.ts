@@ -207,6 +207,24 @@ export const projects = [
     link: "https://signatureverifier.streamlit.app/",
     sourceCode: "https://github.com/RohanSai22/SignatureVerifier",
   },
+  {
+    id: 15,
+    title: "SolX - Solana Social Platform",
+    des: "A decentralized social platform built on the Solana blockchain where users share their Web3 achievements with real-time updates, secure authentication, and a modern UI.",
+    img: "/solX.png",
+    iconLists: ["/solana.png", "/dapp.png", "/blockchain.png"],
+    link: "https://xsolx.vercel.app/",
+    sourceCode: "https://github.com/RohanSai22/solX",
+  },
+  {
+    id: 16,
+    title: "Deep Researcher",
+    des: "A cutting-edge research tool powered by Google Gemini that generates in-depth reports in under 2 minutes, built with Next.js, Tailwind CSS, and Shadcn UI.",
+    img: "/deep-researcher.png",
+    iconLists: ["/next.png", "/python.png"],
+    link: "https://diveinn.vercel.app/",
+    sourceCode: "https://github.com/RohanSai22/deep-researcher",
+  },
 ] as const;
 
 export const testimonials = [
@@ -272,7 +290,7 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Founder - 120 Days of Learning Series",
+    title: "Blogger/Content Creator - 120 Days of Learning Series",
     desc: "Launched a comprehensive initiative covering Quantum Computing, Machine Learning, Deep Learning, and Blockchain through interactive projects and demos.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
