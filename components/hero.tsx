@@ -28,7 +28,7 @@ export const Hero = () => {
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
-            Dynamic Web Magic with Next.js
+            Welcome to My World of Innovation
           </h2>
 
           <TextGenerateEffect
@@ -37,9 +37,10 @@ export const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Hi, I&apos;m {links.ownerName}, a developer blending AI, machine
-            learning, and deep learning with innovative blockchain and
-            full-stack web3 craftsmanship.
+            Hi, I&apos;m {links.ownerName}, a developer seamlessly blending AI,
+            machine learning, and deep learning with innovative blockchain
+            solutions, smart contract expertise, and full-stack web3
+            craftsmanship.
           </p>
 
           <Link href="#about" className="md:mt-10">
